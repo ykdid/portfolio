@@ -133,18 +133,18 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* Container ve içerik düzenini iyileştir */
   .container {
     margin-top: 50px;
     flex-direction: column-reverse;
     padding: 10px;
-    margin-bottom: 330px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .content {
     align-items: center;
     gap: 20px; 
-    text-align: center;  /* Metinleri ortalamak için */
+    text-align: center;  
   }
 
   .title {
@@ -159,7 +159,7 @@
 
   .contactBtn,
   .resumeBtn {
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px 20px; 
   }
 
@@ -185,5 +185,13 @@
     width: 80vw;
     height: 80vw;
     min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    padding-bottom: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
 }

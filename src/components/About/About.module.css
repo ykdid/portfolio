@@ -99,3 +99,22 @@
   }
 }
 
+@media screen and (max-width: 480px){
+  .aboutItemText h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .aboutItemText p {
+    font-size: 16px;
+  }
+  
+  .aboutItemText p{
+    margin: 8px;
+  }
+
+  .container{
+    margin-top:50px;
+  }
+}
+

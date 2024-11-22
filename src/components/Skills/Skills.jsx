@@ -25,12 +25,14 @@ export const Experience = () => {
         className={styles.swiperContainer}
         breakpoints={{
           768: {
-            slidesPerView: 5, // 768px'den küçük ekranlarda 4 item
+            slidesPerView: 5, 
           },
           380: {
-            slidesPerView: 4, // 480px'den küçük ekranlarda 3 item
+            slidesPerView: 4, 
           },
-          
+          375:{
+            slidesPerView: 3,
+          }
         }}
         
       >
