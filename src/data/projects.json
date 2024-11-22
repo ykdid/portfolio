@@ -1,0 +1,18 @@
+[
+  {
+    "title": "GetHired",
+    "imageSrc": "projects/gethired.png",
+    "description": "A Recruitment web application. ASP.NET Core web api and PostgreSQL database are being run with Docker Compose and used JWT Auth. It contains two different React clients for backoffice and user.",
+    "skills": ["ASP.NET Core", "React.js","PostgreSQL"],
+    "demo": "https://gethired-user.vercel.app/login",  
+    "source": "https://github.com/ykdid/GetHired"
+  },
+  {
+    "title": "HomeworkTrackApp",
+    "imageSrc": "projects/homeworktrackapp.png",
+    "description": "A Learning Management System (LMS). I developed backend side in this project. I used ASP.NET Core web api based on Monolithic Layered Architecture and PostgreSQL database. Entire system run on Docker and used JWT Auth.",
+    "skills": ["ASP.NET Core", "EntityFramework", "PostgreSQL"],
+    "demo": "#",
+    "source": "https://github.com/ykdid/homework-track-API"
+  }
+]

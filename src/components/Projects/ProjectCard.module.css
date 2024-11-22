@@ -1,0 +1,170 @@
+.container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 20px; 
+  max-width: 1150px; 
+  min-height: 480px; 
+  margin: 20px auto; 
+  overflow: hidden; 
+}
+
+.image {
+  width: 450px;
+  height: 320px;
+  object-fit: content; 
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 15px; 
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  flex: 1; 
+  overflow-y: auto; 
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  background: var(--color-dark);
+  padding: 5px 15px;
+  white-space: nowrap; 
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.link {
+  margin-top:10px;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: var(--color-primary);
+  padding: 8px 20px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.links img{
+  height:50px;
+  width:50px; 
+}
+
+@media (max-width: 1100px) {
+  .container {
+    flex-direction: column; 
+    max-width: 90%; 
+    min-height: auto; 
+    padding: 15px;
+  }
+
+  .image {
+    width: 100%; 
+    height: auto; 
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .content {
+    gap: 10px; 
+  }
+
+  .title {
+    font-size: 24px; 
+  }
+
+  .description {
+    font-size: 18px; 
+  }
+
+  .skills {
+    gap: 8px; 
+  }
+
+  .skill {
+    font-size: 16px;
+    padding: 4px 10px; 
+  }
+
+  .links {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .link {
+    font-size: 18px; 
+    padding: 6px 15px; 
+  }
+
+  .links img {
+    height: 40px;
+    width: 40px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px; 
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .link {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .links img {
+    height: 35px;
+    width: 35px; 
+  }
+}
+
