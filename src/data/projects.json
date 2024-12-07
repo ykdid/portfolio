@@ -14,5 +14,13 @@
     "skills": ["ASP.NET Core", "EntityFramework", "PostgreSQL"],
     "demo": "#",
     "source": "https://github.com/ykdid/homework-track-API"
+  },
+  {
+    "title": "BreastCancerPredictor",
+    "imageSrc": "projects/breastcancerpredictor.png",
+    "description": "A web application to predict breast cancer (benign-malignant) with using AI (machine learning) SVC Model. Entire system run on Docker Compose and used JWT Auth.",
+    "skills": ["ASP.NET Core", "FlaskAPI", "Machine Learning","React.ts Vite"],
+    "demo": "https://breastcancerpredictor.vercel.app",
+    "source": "https://github.com/ykdid/BreastCancerPredictor"
   }
 ]
